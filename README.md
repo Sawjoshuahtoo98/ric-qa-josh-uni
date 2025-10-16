@@ -1,8 +1,8 @@
-# RIC Q&A Application
+#RIC Q&A Application
 
 A full-stack question-and-answer application powered by Google's Gemini AI. This application allows users to interact with an AI chatbot that provides intelligent responses to their questions.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Project Structure](#project-structure)
@@ -23,7 +23,7 @@ This application consists of:
 - **Backend**: A Flask API that integrates with Google's Gemini AI model
 - **Containerization**: Docker setup for easy deployment
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ric-qa-main/
@@ -61,7 +61,7 @@ ric-qa-main/
 - [Node.js](https://nodejs.org/) (version 16+)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-## 🔑 Environment Setup
+##  Environment Setup
 
 ### Backend Environment Variables
 
@@ -87,7 +87,7 @@ Create a `.env` file in the `frontend` directory:
 VITE_APP_BACKEND_URL=http://localhost:8080/api/v1
 ```
 
-## 🚀 Running the Application
+##  Running the Application
 
 ### Option 1: Using Docker Compose (Recommended)
 
@@ -272,7 +272,7 @@ Port mappings in `docker-compose.yaml`:
 - Backend: `8080:8080`
 - Frontend: `3000:3000`
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -314,14 +314,14 @@ Port mappings in `docker-compose.yaml`:
 - **Logs**: Check Docker logs with `docker-compose logs -f` for real-time updates
 - **Clear Cache**: If experiencing issues, try clearing Docker cache: `docker system prune -a`
 
-## 📝 License
+## License
 
 [Add your license information here]
 
-## 👥 Contributors
+##  Contributors
 
 [Add contributor information here]
 
-## 📧 Contact
+##  Contact
 
 [Add contact information here]
